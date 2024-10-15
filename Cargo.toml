@@ -125,6 +125,7 @@ members = [
     "crates/trie/parallel/",
     "crates/trie/sparse",
     "crates/trie/trie",
+    "crates/verkle/db",
     "examples/beacon-api-sidecar-fetcher/",
     "examples/beacon-api-sse/",
     "examples/bsc-p2p",
@@ -407,7 +408,7 @@ reth-trie = { path = "crates/trie/trie" }
 reth-trie-common = { path = "crates/trie/common" }
 reth-trie-db = { path = "crates/trie/db" }
 reth-trie-parallel = { path = "crates/trie/parallel" }
-
+reth-verkle-db = { path = "crates/verkle/db" }
 # revm
 revm = { version = "14.0.3", features = [
     "std",
@@ -621,3 +622,5 @@ tracy-client = "0.17.3"
 #alloy-transport-http = { git = "https://github.com/alloy-rs/alloy", rev = "8c499409"}
 #alloy-transport-ipc = { git = "https://github.com/alloy-rs/alloy", rev = "8c499409"}
 #alloy-transport-ws = { git = "https://github.com/alloy-rs/alloy", rev = "8c499409"}
+revm = { git = "https://github.com/1010adigupta/revm"}
+revm-primitives = { git = "https://github.com/1010adigupta/revm"}

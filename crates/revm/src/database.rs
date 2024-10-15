@@ -8,7 +8,6 @@ use revm::{
     primitives::{AccountInfo, Bytecode},
     Database,
 };
-
 /// A helper trait responsible for providing state necessary for EVM execution.
 ///
 /// This serves as the data layer for [`Database`].
