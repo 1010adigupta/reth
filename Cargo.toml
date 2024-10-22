@@ -468,6 +468,12 @@ op-alloy-rpc-types-engine = "0.4"
 op-alloy-network = "0.4"
 op-alloy-consensus = "0.4"
 
+# rust-verkle
+verkle-trie = { git = "https://github.com/crate-crypto/rust-verkle.git" }
+verkle-spec = { git = "https://github.com/crate-crypto/rust-verkle.git" }
+verkle-db = { git = "https://github.com/crate-crypto/rust-verkle.git" }
+banderwagon = { git = "https://github.com/crate-crypto/rust-verkle.git" }
+ipa-multipoint = { git = "https://github.com/crate-crypto/rust-verkle.git" }
 # misc
 aquamarine = "0.5"
 auto_impl = "1"

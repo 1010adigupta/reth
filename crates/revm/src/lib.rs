@@ -19,9 +19,15 @@ pub mod batch;
 /// State changes that are not related to transactions.
 pub mod state_change;
 
+/// Contains glue code for integrating reth database into revm's [Database] using verkle trie.
+pub mod database_verkle;
 /// Common test helpers
 #[cfg(any(test, feature = "test-utils"))]
 pub mod test_utils;
+
+/// Commom verkle test utils
+#[cfg(any(test, feature = "test-utils"))]
+pub mod verkle_test_utils;
 
 // Convenience re-exports.
 pub use revm::{self, *};

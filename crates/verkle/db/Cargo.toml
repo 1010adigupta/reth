@@ -27,10 +27,10 @@ revm.workspace = true
 alloy-rlp.workspace = true
 
 #rust-verkle
-verkle-trie = { git = "https://github.com/crate-crypto/rust-verkle.git" }
-verkle-db = { git = "https://github.com/crate-crypto/rust-verkle.git" }
-banderwagon = { git = "https://github.com/crate-crypto/rust-verkle.git" }
-ipa-multipoint = { git = "https://github.com/crate-crypto/rust-verkle.git" }
+verkle-trie.workspace = true
+verkle-spec.workspace = true
+verkle-db.workspace = true
+banderwagon.workspace = true
 
 # tracing
 tracing.workspace = true

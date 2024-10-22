@@ -26,6 +26,12 @@ alloy-primitives.workspace = true
 # revm
 revm.workspace = true
 
+# verkle
+verkle-trie.workspace = true
+verkle-spec.workspace = true
+verkle-db.workspace = true
+ipa-multipoint.workspace = true
+
 [dev-dependencies]
 reth-trie.workspace = true
 reth-ethereum-forks.workspace = true

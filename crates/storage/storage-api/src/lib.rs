@@ -56,3 +56,6 @@ mod database_provider;
 pub use database_provider::*;
 
 pub mod noop;
+
+mod verkle_state;
+pub use verkle_state::*;
